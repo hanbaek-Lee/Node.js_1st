@@ -12,8 +12,9 @@ const commentsSchema = new mongoose.Schema(
       required: true,
       unique: true,
     },
-    title: {
+    password: {
       type: String,
+      required: true,
     },
     content: {
       type: String,
